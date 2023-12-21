@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <div className="w-full h-[80px] flex justify-between items-center text-black bg-white border border-amber-900">
+      <div className="w-full h-[80px] flex justify-between items-center text-black bg-white border ">
         <div className="text-[25px]">Campaigns</div>
         <div className="flex gap-4 items-center">
           <div>
