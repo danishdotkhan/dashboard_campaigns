@@ -1,7 +1,7 @@
 const CampaignSidebar = () => {
   return (
     <>
-      <div className="flex flex-col gap-8 w-[100px] h-screen border border-red-600 items-center py-8">
+      <div className="flex flex-col gap-8 w-[100px] h-screen items-center py-8 border">
         <div>
           <img src="../src/assets/sidebar_arrow_right.svg" alt="" />
         </div>
