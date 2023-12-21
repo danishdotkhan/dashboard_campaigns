@@ -9,11 +9,11 @@ const CampaignHome = () => {
       <Layout>
         {
           <>
-            <div className="flex justify-between mt-[30px] mx-10">
+            <div className="flex justify-between mt-[30px] mx-16">
               <SearchInput />
               <CreateCampaignButton />
             </div>
-            <div className="flex mt-[30px] mx-10">
+            <div className="flex mt-[30px] mx-9">
               <CampaignsTableHome />{" "}
             </div>
           </>

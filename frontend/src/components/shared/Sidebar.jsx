@@ -1,10 +1,11 @@
 const CampaignSidebar = () => {
   return (
     <>
-      <div className="flex flex-col gap-8 w-[100px] h-screen items-center py-8 border">
+      <div className="flex flex-col gap-10 w-[100px] h-screen items-center py-8 border">
         <div>
           <img src="../src/assets/sidebar_arrow_right.svg" alt="" />
         </div>
+        <span className="mt-5"></span>
         <div>
           <img src="../src/assets/sidebar_icon1.svg" alt="" />
         </div>

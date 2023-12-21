@@ -58,131 +58,101 @@ const CampaignTableHome = () => {
                 <tbody className="bg-white divide-y divide-gray-200">
                   {/* Repeat this row for each entry */}
                   <tr>
-                    <td className="px-6 py-5 whitespace-nowrap">CEO Reach</td>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">CEO Reach</td>
+                    <td className="px-6 py-8 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Active
                       </span>
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">67%</td>
-                    <td className="px-6 py-5 whitespace-nowrap">674</td>
-                    <td className="px-6 py-5 whitespace-nowrap">252</td>
-                    <td className="px-6 py-5 whitespace-nowrap">83</td>
-                    <td className="px-6 py-5 whitespace-nowrap">40</td>
-                    <td className="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                      <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        Edit
-                      </a>
+                    <td className="px-6 py-8 whitespace-nowrap">67%</td>
+                    <td className="px-6 py-8 whitespace-nowrap">674</td>
+                    <td className="px-6 py-8 whitespace-nowrap">252</td>
+                    <td className="px-6 py-8 whitespace-nowrap">83</td>
+                    <td className="px-6 py-8 whitespace-nowrap">40</td>
+                    <td className="px-6 py-8 whitespace-nowrap text-right text-sm font-medium">
+                      <span className="text-2xl">. . .</span>
                     </td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-5 whitespace-nowrap">Sana Rehman</td>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">Sana Rehman</td>
+                    <td className="px-6 py-8 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Active
                       </span>
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">11%</td>
-                    <td className="px-6 py-5 whitespace-nowrap">453</td>
-                    <td className="px-6 py-5 whitespace-nowrap">352</td>
-                    <td className="px-6 py-5 whitespace-nowrap">86</td>
-                    <td className="px-6 py-5 whitespace-nowrap">400</td>
-                    <td className="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                      <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        Edit
-                      </a>
+                    <td className="px-6 py-8 whitespace-nowrap">11%</td>
+                    <td className="px-6 py-8 whitespace-nowrap">453</td>
+                    <td className="px-6 py-8 whitespace-nowrap">352</td>
+                    <td className="px-6 py-8 whitespace-nowrap">86</td>
+                    <td className="px-6 py-8 whitespace-nowrap">400</td>
+                    <td className="px-6 py-8 whitespace-nowrap text-right text-sm font-medium">
+                      <span className="text-2xl">. . .</span>
                     </td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-5 whitespace-nowrap">Shahid Khan</td>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">Shahid Khan</td>
+                    <td className="px-6 py-8 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Active
                       </span>
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">674%</td>
-                    <td className="px-6 py-5 whitespace-nowrap">674</td>
-                    <td className="px-6 py-5 whitespace-nowrap">252</td>
-                    <td className="px-6 py-5 whitespace-nowrap">83</td>
-                    <td className="px-6 py-5 whitespace-nowrap">40</td>
-                    <td className="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                      <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        Edit
-                      </a>
+                    <td className="px-6 py-8 whitespace-nowrap">674%</td>
+                    <td className="px-6 py-8 whitespace-nowrap">674</td>
+                    <td className="px-6 py-8 whitespace-nowrap">252</td>
+                    <td className="px-6 py-8 whitespace-nowrap">83</td>
+                    <td className="px-6 py-8 whitespace-nowrap">40</td>
+                    <td className="px-6 py-8 whitespace-nowrap text-right text-sm font-medium">
+                      <span className="text-2xl">. . .</span>
                     </td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-5 whitespace-nowrap">Danish khan</td>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">Danish khan</td>
+                    <td className="px-6 py-8 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Active
                       </span>
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">23%</td>
-                    <td className="px-6 py-5 whitespace-nowrap">6234</td>
-                    <td className="px-6 py-5 whitespace-nowrap">254</td>
-                    <td className="px-6 py-5 whitespace-nowrap">654</td>
-                    <td className="px-6 py-5 whitespace-nowrap">65</td>
-                    <td className="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                      <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        Edit
-                      </a>
+                    <td className="px-6 py-8 whitespace-nowrap">23%</td>
+                    <td className="px-6 py-8 whitespace-nowrap">6234</td>
+                    <td className="px-6 py-8 whitespace-nowrap">254</td>
+                    <td className="px-6 py-8 whitespace-nowrap">654</td>
+                    <td className="px-6 py-8 whitespace-nowrap">65</td>
+                    <td className="px-6 py-8 whitespace-nowrap text-right text-sm font-medium">
+                      <span className="text-2xl">. . .</span>
                     </td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">
                       Junaid Ahmed
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Active
                       </span>
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">67%</td>
-                    <td className="px-6 py-5 whitespace-nowrap">674</td>
-                    <td className="px-6 py-5 whitespace-nowrap">252</td>
-                    <td className="px-6 py-5 whitespace-nowrap">83</td>
-                    <td className="px-6 py-5 whitespace-nowrap">40</td>
-                    <td className="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                      <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        Edit
-                      </a>
+                    <td className="px-6 py-8 whitespace-nowrap">67%</td>
+                    <td className="px-6 py-8 whitespace-nowrap">674</td>
+                    <td className="px-6 py-8 whitespace-nowrap">252</td>
+                    <td className="px-6 py-8 whitespace-nowrap">83</td>
+                    <td className="px-6 py-8 whitespace-nowrap">40</td>
+                    <td className="px-6 py-8 whitespace-nowrap text-right text-sm font-medium">
+                      <span className="text-2xl">. . .</span>
                     </td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-5 whitespace-nowrap">Shazim Jan</td>
-                    <td className="px-6 py-5 whitespace-nowrap">
+                    <td className="px-6 py-8 whitespace-nowrap">Shazim Jan</td>
+                    <td className="px-6 py-8 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
                         Active
                       </span>
                     </td>
-                    <td className="px-6 py-5 whitespace-nowrap">67%</td>
-                    <td className="px-6 py-5 whitespace-nowrap">674</td>
-                    <td className="px-6 py-5 whitespace-nowrap">252</td>
-                    <td className="px-6 py-5 whitespace-nowrap">83</td>
-                    <td className="px-6 py-5 whitespace-nowrap">40</td>
-                    <td className="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                      <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        Edit
-                      </a>
+                    <td className="px-6 py-8 whitespace-nowrap">67%</td>
+                    <td className="px-6 py-8 whitespace-nowrap">674</td>
+                    <td className="px-6 py-8 whitespace-nowrap">252</td>
+                    <td className="px-6 py-8 whitespace-nowrap">83</td>
+                    <td className="px-6 py-8 whitespace-nowrap">40</td>
+                    <td className="px-6 py-8 whitespace-nowrap text-right text-sm font-medium">
+                      <span className="text-2xl">. . .</span>
                     </td>
                   </tr>
                 </tbody>
