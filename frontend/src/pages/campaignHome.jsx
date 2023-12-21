@@ -1,7 +1,7 @@
 import Layout from "../components/Layout.jsx";
 
 const CampaignHome = () => {
-  return <Layout>{/* Your page content here */}</Layout>;
+  return <Layout>{}</Layout>;
 };
 
 export default CampaignHome;
