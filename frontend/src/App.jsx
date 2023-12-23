@@ -4,8 +4,8 @@ import AppDashboard from "./pages/appDashboard";
 export default function App() {
   return (
     <>
-      <CampaignHome />
-      <AppDashboard />
+    <CampaignHome />
+    <AppDashboard/>
     </>
   );
 }

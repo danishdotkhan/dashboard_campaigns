@@ -63,7 +63,7 @@ return(
                     </th>
                   </tr>
                 </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
+                <tbody className="bg-white divide-transparent">
                   {/* Repeat this row for each entry */}
                   <tr>
                     <td className="px-6 py-8 whitespace-nowrap"><div class="text-slate-800 text-sm font-normal font-['Work Sans'] leading-none">Campaign title Here</div></td>

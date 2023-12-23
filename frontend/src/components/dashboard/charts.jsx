@@ -6,7 +6,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  
+  ResponsiveContainer,
 } from "recharts";
 const data = [
     {
@@ -157,14 +157,14 @@ const data = [
       Unique_Clicks:0,
     },
   ];
-
+  
 const Charts = () => {
     return (
         <>
         <div  className="m-[40px]   w-[full]  h-[460px] ">
          
             <div className="rounded-custom2 flex flex-col items-center justify-center w-[full] h-[460px] bg-white border border-solid border-[#e3e5e7]">
-            <div className=" px-[40px] pb-[40px]  gap-4  max-w-[1200px] w-[100%] flex items-center  justify-between"
+            <div className=" px-[40px] pb-[40px]  gap-4  max-w-[4300px] w-[100%] flex items-center  justify-between"
             ><h2 className="font-bold text-[20px] text-2A333F">Emails</h2>
             <div className="flex items-center justify-center gap-6 ">
               <div className="flex items-center justify-center gap-2">
@@ -214,9 +214,9 @@ const Charts = () => {
               </div>
             </div>
             </div>
-                
-   <LineChart width={1200} height={320} data={data}>
-      <XAxis dataKey="name" padding={{ left: 30, right: 30 }} />
+            <ResponsiveContainer width="100%" height={320} >
+   <LineChart width={1200}  height={320} data={data} margin={{ left: 30, right: 30 }} >
+      <XAxis dataKey="name" padding={{ left: 30, right: 30 }}  />
       <YAxis />
       <Tooltip />
       
@@ -224,20 +224,21 @@ const Charts = () => {
         type="monotone"
         dataKey="sent"
         stroke="#119BAD"
-        
+        dot={false}
       />
       <Line
         type="monotone"
         dataKey="Total_Opens"
         stroke="#E6463B"
-       
+        dot={false}
       />
-      <Line type="monotone" dataKey="Unique_Opens" stroke="#30C3FF" />
-      <Line type="monotone" dataKey="Total_Replies" stroke="#1B323F" />
-      <Line type="monotone" dataKey="Total_Clicks" stroke="#A7BED5" />
-      <Line type="monotone" dataKey="Unique_Clicks" stroke="#085C9C" />
+      <Line type="monotone" dataKey="Unique_Opens" stroke="#30C3FF" dot={false}/>
+      <Line type="monotone" dataKey="Total_Replies" stroke="#1B323F" dot={false} />
+      <Line type="monotone" dataKey="Total_Clicks" stroke="#A7BED5" dot={false}/>
+      <Line type="monotone" dataKey="Unique_Clicks" stroke="#085C9C" dot={false} />
     </LineChart> 
-  
+    </ResponsiveContainer>
+   
             </div>
         </div>
         </>
