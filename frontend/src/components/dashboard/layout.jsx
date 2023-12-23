@@ -1,5 +1,5 @@
-import Navbar from "./shared/Navbar.jsx";
-import Sidebar from "./shared/Sidebar.jsx";
+import Navbar from "./navbar.jsx";
+import Sidebar from "../shared/Sidebar.jsx";
 
 const Layout = ({ children }) => {
   return (
