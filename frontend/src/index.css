@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Allroundgothic';
+  src: url('C:\Users\SONY\Desktop\FontsFree-Net-All-Round-Gothic-W01-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .rounded-custom1 {
   border-radius: 10px;
 }

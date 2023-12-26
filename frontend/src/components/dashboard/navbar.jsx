@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
       <>
         <div className="w-full h-[80px] flex justify-between items-center text-black bg-white border border-x-0">
-          <div className="ml-10"><div class="text-slate-800 text-2xl font-semibold font-['All Round Gothic'] leading-10">Dashboard</div></div>
+          <div className="ml-10"><div class="text-slate-800 text-2xl font-semibold font-nova tracking-wider leading-10">Dashboard</div></div>
           <div className="flex gap-6 items-center">
             <div>
               <img src="../src/assets/Settings.svg" alt="" />

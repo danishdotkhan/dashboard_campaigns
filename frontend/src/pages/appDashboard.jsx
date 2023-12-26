@@ -10,7 +10,7 @@ const appDashboard = () => {
     <div className="w-[full] h-[full] overflow-scroll chrome-scrollbar-hidden" >
     
       <Layout>
-      <Sidetab />
+      
         <Topbar />
         <Charts />
         <AnalyticsComponent />

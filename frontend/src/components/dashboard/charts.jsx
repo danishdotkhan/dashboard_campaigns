@@ -165,7 +165,7 @@ const Charts = () => {
          
             <div className="rounded-custom2 flex flex-col items-center justify-center w-[full] h-[460px] bg-white border border-solid border-[#e3e5e7]">
             <div className=" px-[40px] pb-[40px]  gap-4  max-w-[4300px] w-[100%] flex items-center  justify-between"
-            ><h2 className="font-bold text-[20px] text-2A333F">Emails</h2>
+            ><h2 className="font-bold text-[20px] font-nova text-2A333F">Emails</h2>
             <div className="flex items-center justify-center gap-6 ">
               <div className="flex items-center justify-center gap-2">
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
