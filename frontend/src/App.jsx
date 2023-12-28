@@ -1,15 +1,17 @@
 import CampaignHome from "./pages/campaignHome";
 import AppDashboard from "./pages/appDashboard";
-import Signup from "./components/signup/signup";
-import Signin from "./components/signin/signin";
+import SignIn from "./pages/signin";
+import SignUp from "./pages/signup";
+import Welcome from "./pages/welcome";
 
 export default function App() {
   return (
     <>
     <CampaignHome />
     <AppDashboard/>
-    <Signup />
-    <Signin   />
+    <SignUp />
+    <SignIn />
+    <Welcome />
     </>
   );
 }
