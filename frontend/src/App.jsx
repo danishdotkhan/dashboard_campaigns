@@ -3,6 +3,7 @@ import AppDashboard from "./pages/appDashboard";
 import SignIn from "./pages/signin";
 import SignUp from "./pages/signup";
 import Welcome from "./pages/welcome";
+import Subscription from "./pages/subscription";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
     <SignUp />
     <SignIn />
     <Welcome />
+    <Subscription />
     </>
   );
 }
