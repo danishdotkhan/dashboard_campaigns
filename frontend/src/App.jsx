@@ -6,6 +6,7 @@ import Welcome from "./pages/welcome";
 import Subscription from "./pages/subscription";
 import Question from "./pages/question";
 import Leads from "./pages/leads";
+import Help from "./pages/help";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
     <Subscription />
     <Question />
     <Leads />
+    <Help />
     </>
   );
 }
