@@ -7,6 +7,7 @@ export default {
         sans: ['All-Round-Gothic', 'Work Sans', 'Roboto', 'ui-sans-serif', 'system-ui'],
         
           nova: ['Nova Round', 'sans-serif'],
+          gothic:['Gothic+A1'],
         
       },
     },
