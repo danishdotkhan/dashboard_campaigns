@@ -4,10 +4,11 @@ import Q2 from "../components/questions/ques2.jsx";
 
 
 const Question = () => {
+  
   return (
     <>
         <Layout >
-       
+      
         </Layout>
     </>
   );

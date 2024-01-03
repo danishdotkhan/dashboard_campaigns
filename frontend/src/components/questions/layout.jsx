@@ -8,9 +8,24 @@ import Q7 from "./ques7";
 import Q8 from "./ques8";
 import Q9 from "./ques9";
 import Q10 from "./ques10";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Layout = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollLeft = window.scrollX;
+        setIsScrolled(scrollLeft > 0);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
     const [activeTab, setActiveTab] = useState('campaign');
 
     const handleTabClick = (tab) => {
@@ -51,7 +66,7 @@ const Layout = () => {
                    
                     </div>
             
-                    <div className="w-[100%] h-[506px] hidescrollbar overflow-scroll m-7 flex gap-6 justify-start items-start  ">
+                    <div className={`w-[100%] h-[506px] hidescrollbar overflow-x-scroll m-7 flex gap-6 justify-start items-start  ${isScrolled ? 'ml-0' : 'ml-auto'}`}>
             <Q1 />
             <Q2 />
             <Q3 />
