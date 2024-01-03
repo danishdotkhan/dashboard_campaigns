@@ -8,7 +8,7 @@ const Signin = () => {
             <div  >
                 <div class=" left-[60px] top-[24px] absolute text-slate-800 text-2xl font-bold font-['Roboto']">Synapse.ai</div>
 
-                <div class="left-[160px] top-[90px] absolute text-slate-800 text-xl font-extrabold font-nova tracking-wide leading-relaxed">Sign In</div>
+                <div class="left-[160px] top-[90px] absolute text-slate-800 text-xl font-extrabold font-['Roboto'] tracking-wide leading-relaxed">Sign In</div>
                 <div class="w-96 left-[160px] top-[126px] absolute text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Enter the email address and password to login to your account</div>
                 <div class="w-96 h-14 left-[170px] top-[806px] absolute  ">
                     <div class="w-96 left-0 top-0 absolute text-center text-slate-500 text-base font-normal font-['Work Sans']">Dont have an account yet?</div>

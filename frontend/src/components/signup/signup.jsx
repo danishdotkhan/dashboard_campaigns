@@ -6,7 +6,7 @@ const Signup =() =>{
         <div class=" w-[100%] h-[900px] relative bg-white m-0 p-0" >
     <div  >
     <div class=" left-[60px] top-[24px] absolute text-slate-800 text-2xl font-bold font-['Roboto']">Synapse.ai</div>
-    <div class="left-[160px] top-[90px] absolute text-slate-800 text-xl font-bold tracking-wide font-nova leading-relaxed">Create Account</div>
+    <div class="left-[160px] top-[90px] absolute text-slate-800 text-xl font-bold tracking-wide font-['Roboto'] leading-relaxed">Create Account</div>
     <div class="w-96 left-[160px] top-[126px] absolute text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Enter the following information to create your free account</div>
     <div class="w-96 h-14 left-[170px] top-[806px] absolute  ">
         <div class="w-96 left-0 top-0 absolute text-center text-slate-500 text-base font-normal font-['Work Sans']">Already have an account?</div>

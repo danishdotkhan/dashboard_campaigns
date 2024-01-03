@@ -16,10 +16,10 @@ const Subscription = () => {
                     <div className="w-64 h-96  relative">
                         <div class="w-64 h-[590px] left-0 top-0 absolute bg-white rounded-2xl border border-zinc-200"></div>
                         <div class="w-64 h-14 left-0 top-[170px] absolute bg-zinc-200"></div>
-                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-nova leading-loose">Free Trial</div>
-                        <div class="left-[20px] top-[112px] absolute text-slate-800 text-3xl font-bold font-nova leading-loose">$0.00</div>
+                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-['Roboto'] leading-loose">Free Trial</div>
+                        <div class="left-[20px] top-[112px] absolute text-slate-800 text-3xl font-bold font-['Roboto'] leading-loose">$0.00</div>
                         <div class="left-[20px] top-[78px] absolute text-slate-500 text-base font-medium font-['Work Sans'] leading-tight">Trial Version</div>
-                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-nova leading-snug">5 Credits</div>
+                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-['Roboto'] leading-snug">5 Credits</div>
                         <div class="w-44 h-6 left-[20px] top-[260px] absolute">
                             <div class="left-[44px] top-[2px] absolute text-slate-800 text-base font-normal font-['Work Sans'] leading-snug">1 credit = 1 profile</div>
                             <div class="w-6 h-6 left-0 top-0 absolute flex-col justify-start items-start inline-flex">
@@ -65,9 +65,9 @@ const Subscription = () => {
                     <div class="w-64 h-96 relative">
                         <div class="w-64 h-[590px] left-0 top-0 absolute bg-white rounded-2xl border border-zinc-200"></div>
                         <div class="w-64 h-14 left-0 top-[170px] absolute bg-zinc-200"></div>
-                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-nova leading-snug">200 Credits</div>
-                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-nova leading-loose">Starter Pack</div>
-                        <div class="left-[20px] top-[112px] absolute text-cyan-600 text-3xl font-bold font-nova leading-loose">$10.00</div>
+                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-['Roboto'] leading-snug">200 Credits</div>
+                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-['Roboto'] leading-loose">Starter Pack</div>
+                        <div class="left-[20px] top-[112px] absolute text-cyan-600 text-3xl font-bold font-['Roboto'] leading-loose">$10.00</div>
                         <div class="left-[20px] top-[78px] absolute text-slate-800 text-base font-medium font-['Work Sans'] leading-tight">Best For Solopreneurs</div>
                         <div class="w-44 h-6 left-[20px] top-[260px] absolute">
                             <div class="left-[44px] top-[2px] absolute text-slate-800 text-base font-normal font-['Work Sans'] leading-snug">1 credit = 1 profile</div>
@@ -150,9 +150,9 @@ const Subscription = () => {
                             </div>
                         </div>
                         <div class="w-64 h-14 left-0 top-[170px] absolute bg-zinc-200"></div>
-                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-nova leading-snug">800 Credits</div>
-                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-nova leading-loose">Growth Pack</div>
-                        <div class="left-[20px] top-[112px] absolute text-cyan-600 text-3xl font-bold font-nova leading-loose">$60.00</div>
+                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-['Roboto'] leading-snug">800 Credits</div>
+                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-['Roboto'] leading-loose">Growth Pack</div>
+                        <div class="left-[20px] top-[112px] absolute text-cyan-600 text-3xl font-bold font-['Roboto'] leading-loose">$60.00</div>
                         <div class="left-[20px] top-[78px] absolute text-slate-800 text-base font-medium font-['Work Sans'] leading-tight">Best For Founders</div>
                         <div class="w-52 h-12 left-[20px] top-[522px] absolute rounded-lg  group cursor-pointer">
                             <div class="w-52 h-12 left-0 top-0 absolute bg-sky-600 rounded-lg transition duration-300 ease-in-out group-hover:bg-sky-700"></div>
@@ -199,9 +199,9 @@ const Subscription = () => {
                             </div>
                         </div>
                         <div class="w-64 h-14 left-0 top-[170px] absolute bg-zinc-200"></div>
-                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-nova leading-snug">2500 Credits</div>
-                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-nova leading-loose">Get On Top</div>
-                        <div class="left-[20px] top-[112px] absolute text-cyan-600 text-3xl font-bold font-nova leading-loose">$100.00</div>
+                        <div class="left-[20px] top-[189px] absolute text-sky-600 text-base font-normal font-['Roboto'] leading-snug">2500 Credits</div>
+                        <div class="left-[20px] top-[20px] absolute text-slate-800 text-3xl font-bold font-['Roboto'] leading-loose">Get On Top</div>
+                        <div class="left-[20px] top-[112px] absolute text-cyan-600 text-3xl font-bold font-['Roboto'] leading-loose">$100.00</div>
                         <div class="left-[20px] top-[78px] absolute text-slate-800 text-base font-medium font-['Work Sans'] leading-tight">Best For Small Teams</div>
                         <div class="w-52 h-12 left-[20px] top-[522px] absolute rounded-lg group cursor-pointer">
                             <div class="w-52 h-12 left-0 top-0 absolute bg-sky-600 rounded-lg  transition duration-300 ease-in-out group-hover:bg-sky-700"></div>

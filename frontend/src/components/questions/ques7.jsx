@@ -18,7 +18,7 @@ const Q7 = () => {
                         <li className="bg-[#2A333F] tracking-wider cursor-pointer py-[10px] px-[16px] rounded-3xl text-center text-white text-sm font-normal font-['Work Sans']">lazyjumpers.en</li>
                     </ul>
                 </div>
-                <ul className="list-disc">  <li class="w-[560px] mt-[140px] tracking-wider text-slate-500 text-base font-normal font-['Work Sans'] leading-relaxed">Click the bubble to remove</li></ul>
+                <ul className="list-disc">  <li class="w-[560px] ml-[20px] mt-[140px] tracking-wider text-slate-500 text-base font-normal font-['Work Sans'] leading-relaxed">Click the bubble to remove</li></ul>
             
                </div>
 

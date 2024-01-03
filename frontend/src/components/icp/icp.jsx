@@ -1,6 +1,27 @@
 import React, { useState } from 'react';
 import Q1 from "../questions/ques1.jsx";
 import Q2 from "../questions/ques2.jsx";
+import Q3 from "../questions/ques3";
+import Q4 from "../questions/ques4";
+import Q5 from "../questions/ques5";
+import Q6 from "../questions/ques6";
+import Q7 from "../questions/ques7";
+import Q8 from "../questions/ques8";
+import Q9 from "../questions/ques9";
+import Q10 from "../questions/ques10";
+import Q11 from "../questions/ques11";
+import Q12 from "../questions/ques12";
+import Q13 from "../questions/ques13";
+import Q14 from "../questions/ques14";
+import Q15 from "../questions/ques15";
+import Q16 from "../questions/ques16";
+import Q17 from "../questions/ques17";
+import Q18 from "../questions/ques18";
+import Q19 from "../questions/ques19";
+import Q20 from "../questions/ques20";
+import Q21 from "../questions/ques21";
+import Q22 from "../questions/ques22";
+import Q23 from "../questions/ques23";
 
 const Icpcomp = () => {
     const [activeTab, setActiveTab] = useState('campaign');
@@ -19,7 +40,7 @@ const Icpcomp = () => {
     };
     return (
         <>
-            <div className="grid grid-cols-11 gap-1">
+            <div className="w-[100%] h-[900px]  grid grid-cols-11 gap-1">
                 
                     <div className="col-span-5" >
                         <div className="mt-[32px] ml-[40px] rounded-custom2 flex flex-col   w-[full] h-[full] bg-white ">
@@ -83,7 +104,7 @@ const Icpcomp = () => {
               
 
 
-                    <div className='col-span-6 pr-[40px]  w-[100%]'>
+                    <div className='col-span-6  pr-[40px]  w-[100%]'>
                                     <div className=' mx-[40px] flex items-end justify-between w-[640px]'>
                     <div className='flex flex-col items-start justify-center mt-[30px]'>
                     <div className="text-slate-800 mb-[20px] text-base font-normal font-['Work Sans'] leading-snug" > {`${currentProgress} of 23`}</div>
@@ -102,9 +123,32 @@ const Icpcomp = () => {
                     <button className='w-48 h-12 bg-sky-600 rounded-lg cursor-pointer'><div class="text-center text-white text-base font-medium font-['Work Sans']">Complete ICP(70%)</div></button>
 
                     </div>
-                    <div  className="my-[40px] flex flex-col justify-end items-between gap-[20px] ">
-                        <Q1 />
+                    <div className='w-[100%] h-[700px] hidescrollbar my-[40px] overflow-y-scroll overflow-x-hidden'>
+                    <div  className=" flex flex-col justify-end items-between  gap-[20px] ">
+                      <div className='ml-[-360px]'><Q1 /></div>  
                         <Q2 />
+                        <Q3 />
+                        <Q4 />
+                        <Q5 />
+                        <Q6 />
+                        <Q7 />
+                        <Q8 />
+                        <Q9 />
+                        <Q10 />
+                        <Q11 />
+                        <Q12 />
+                        <Q13 />
+                        <Q14 />
+                        <Q15 />
+                        <Q16 />
+                        <Q17 />
+                        <Q18 />
+                        <Q19 />
+                        <Q20 />
+                        <Q21 />
+                        <Q22 />
+                        <Q23 />
+                    </div>
                     </div>
                     </div>
                    
