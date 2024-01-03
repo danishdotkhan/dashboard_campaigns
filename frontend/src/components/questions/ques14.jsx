@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Q9 = () => {
+const Q14 = () => {
 
     const [isChecked, setIsChecked] = useState(false);
     const [isChecked2, setIsChecked2] = useState(false);
@@ -51,4 +51,4 @@ const Q9 = () => {
         </>
     )
 }
-export default Q9;
+export default Q14;

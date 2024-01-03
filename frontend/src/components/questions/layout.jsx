@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import Q1 from "./ques1";
 import Q2 from "./ques2";
 import Q3 from "./ques3";
@@ -8,7 +9,19 @@ import Q7 from "./ques7";
 import Q8 from "./ques8";
 import Q9 from "./ques9";
 import Q10 from "./ques10";
-import React, { useEffect, useState } from 'react';
+import Q11 from "./ques11";
+import Q12 from "./ques12";
+import Q13 from "./ques13";
+import Q14 from "./ques14";
+import Q15 from "./ques15";
+import Q16 from "./ques16";
+import Q17 from "./ques17";
+import Q18 from "./ques18";
+import Q19 from "./ques19";
+import Q20 from "./ques20";
+import Q21 from "./ques21";
+import Q22 from "./ques22";
+import Q23 from "./ques23";
 
 const Layout = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -77,6 +90,19 @@ const Layout = () => {
             <Q8 />
             <Q9 />
             <Q10 />
+            <Q11 />
+            <Q12 />
+            <Q13 />
+            <Q14 />
+            <Q15 />
+            <Q16 />
+            <Q17 />
+            <Q18 />
+            <Q19 />
+            <Q20 />
+            <Q21 />
+            <Q22 />
+            <Q23 />
 
         </div>
 
