@@ -12,7 +12,7 @@ import Icp from "./pages/icp";
 export default function App() {
   return (
     <>
-    
+
     <CampaignHome />
     <AppDashboard/>
     <SignUp />
