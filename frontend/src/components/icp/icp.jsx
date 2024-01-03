@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Q1 from "../questions/ques1.jsx";
+import Q2 from "../questions/ques2.jsx";
 
 const Icpcomp = () => {
     const [activeTab, setActiveTab] = useState('campaign');
@@ -17,10 +19,10 @@ const Icpcomp = () => {
     };
     return (
         <>
-            <div className="grid grid-cols-2 gap-4">
-                <div>
-                    <div>
-                        <div className="mt-[32px] mx-[40px] rounded-custom2 flex flex-col   w-[full] h-[full] bg-white ">
+            <div className="grid grid-cols-11 gap-1">
+                
+                    <div className="col-span-5" >
+                        <div className="mt-[32px] ml-[40px] rounded-custom2 flex flex-col   w-[full] h-[full] bg-white ">
 
                             <div className=" flex items-center justify-between">
                                 <div className="flex items-center ">
@@ -40,7 +42,7 @@ const Icpcomp = () => {
 
                             </div>
 
-                            <div class="w-[400px] h-[48px] mb-[10px] mt-[40px] bg-[#F3F5F7] p-4 rounded-md shadow-md flex items-center">
+                            <div class="w-[400px] h-[48px] mb-[10px] mt-[40px] bg-[#F3F5F7] rounded-md shadow-md flex items-center">
                                 <div class="mr-2">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 2.75C6.66751 2.75 2.75 6.66751 2.75 11.5C2.75 16.3325 6.66751 20.25 11.5 20.25C16.3325 20.25 20.25 16.3325 20.25 11.5C20.25 6.66751 16.3325 2.75 11.5 2.75ZM1.25 11.5C1.25 5.83908 5.83908 1.25 11.5 1.25C17.1609 1.25 21.75 5.83908 21.75 11.5C21.75 17.1609 17.1609 21.75 11.5 21.75C5.83908 21.75 1.25 17.1609 1.25 11.5ZM19.4697 19.4697C19.7626 19.1768 20.2374 19.1768 20.5303 19.4697L22.5303 21.4697C22.8232 21.7626 22.8232 22.2374 22.5303 22.5303C22.2374 22.8232 21.7626 22.8232 21.4697 22.5303L19.4697 20.5303C19.1768 20.2374 19.1768 19.7626 19.4697 19.4697Z" fill="#089CB3" />
@@ -53,20 +55,20 @@ const Icpcomp = () => {
                             {activeTab === 'campaign' && (
                                 <div id="campaignanalytics">
                                     <ul className='mx-[20px] my-[40px] flex flex-col gap-[20px]  justify-center items-start'>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Job Titles</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Geographical Location</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Industry Sectors</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Company Size by Number of Employees</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Specific Keywords and Phrases</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Corporate Domains</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Technology Stack or Software Usage</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Company News and Press Releases</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Type and Stage of Company Funding</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Departmental Structure</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Management and Executive Titles</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Decision Maker Interests and Endorsements</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Recent Job Listings and Hiring Trends</li>
-                                        <li className="w-96 text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Company Growth Indicators</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Job Titles</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Geographical Location</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Industry Sectors</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Company Size by Number of Employees</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Specific Keywords and Phrases</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Corporate Domains</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Technology Stack or Software Usage</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Company News and Press Releases</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Type and Stage of Company Funding</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Departmental Structure</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Management and Executive Titles</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Decision Maker Interests and Endorsements</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Recent Job Listings and Hiring Trends</li>
+                                        <li className="w-[378px] h-[20px] text-slate-500 text-base font-normal font-['Work Sans'] leading-snug">Company Growth Indicators</li>
                                     </ul>
                                 </div>
                             )}
@@ -78,17 +80,14 @@ const Icpcomp = () => {
                             )}
                         </div>
                     </div>
-                </div>
-
-
-
-
               
 
 
-                    <div className='flex flex-col items-center justify-center mt-[30px]'>
-                    <div> {`${currentProgress} / 23`}</div>
-                    <div className="">
+                    <div className='col-span-6 pr-[40px]  w-[100%]'>
+                                    <div className=' mx-[40px] flex items-end justify-between w-[640px]'>
+                    <div className='flex flex-col items-start justify-center mt-[30px]'>
+                    <div className="text-slate-800 mb-[20px] text-base font-normal font-['Work Sans'] leading-snug" > {`${currentProgress} of 23`}</div>
+                     
                         <div className="w-[321px] bg-zinc-200  rounded-lg overflow-hidden">
                             <div
                                 id="progress"
@@ -97,22 +96,18 @@ const Icpcomp = () => {
                             >
                             </div>
                         </div>
-
+                       
                        
                     </div>
-                    </div>
+                    <button className='w-48 h-12 bg-sky-600 rounded-lg cursor-pointer'><div class="text-center text-white text-base font-medium font-['Work Sans']">Complete ICP(70%)</div></button>
 
-                    <div>
-                    <button className=" group">
-                <div className="w-[200px] h-[48px]">
-                    <div className="pl-[36px] pr-[12px] flex justify-between items-center  rounded-lg w-[200px] h-[48px] transition duration-300 ease-in-out group-hover:bg-sky-700  bg-[#0b84df]">
-                            <div className=" text-center text-white text-base font-medium font-['Work Sans']">
-                            {`Complete ICP (${currentProgress}) `}
-                            </div>
                     </div>
-                </div>
-            </button>
+                    <div  className="my-[40px] flex flex-col justify-end items-between gap-[20px] ">
+                        <Q1 />
+                        <Q2 />
                     </div>
+                    </div>
+                   
                 </div>
 
             

@@ -1,10 +1,11 @@
-const Q1 = () => {
+const Q2 = () => {
     return (
         <>
+        
        <div class="w-[640px] h-[506px] p-[40px] mx-[40px] flex flex-col justify-start items-start bg-white rounded-2xl border border-zinc-200">
        
-    <div class="w-[640px] h-[42px] text-slate-800 text-2xl font-black font-['Gothic A1'] leading-10">Job Titles</div>
-    <div class="w-[640px]  h-[26px]  text-slate-500 text-base font-normal font-['Work Sans'] leading-relaxed">Select the job title of your ideal customer</div>
+    <div class="w-[640px] h-[42px] text-slate-800 text-2xl font-black font-['Gothic A1'] leading-10">Geographic Location</div>
+    <div class="w-[640px]  h-[26px]  text-slate-500 text-base font-normal font-['Work Sans'] leading-relaxed">Enter the city and state</div>
     <div class="w-[640px]  h-[335px] mt-[40px] hidescrollbar overflow-x-scroll  flex-col justify-start items-start gap-5 inline-flex">
        
         <div class="w-[560px]  relative">
@@ -51,7 +52,8 @@ const Q1 = () => {
         </div>
     </div>
 </div>
+
         </>
     )
 }
-export default Q1;
+export default Q2;

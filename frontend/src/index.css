@@ -29,6 +29,10 @@
   color: #788596;
 }
 
+.hidescrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 
 
 
