@@ -1,5 +1,13 @@
 import Q1 from "./ques1";
 import Q2 from "./ques2";
+import Q3 from "./ques3";
+import Q4 from "./ques4";
+import Q5 from "./ques5";
+import Q6 from "./ques6";
+import Q7 from "./ques7";
+import Q8 from "./ques8";
+import Q9 from "./ques9";
+import Q10 from "./ques10";
 import React, { useState } from 'react';
 
 const Layout = () => {
@@ -46,7 +54,15 @@ const Layout = () => {
                     <div className="w-[100%] h-[506px] hidescrollbar overflow-scroll m-7 flex gap-6 justify-start items-start  ">
             <Q1 />
             <Q2 />
-            <Q1 />
+            <Q3 />
+            <Q4 />
+            <Q5 />
+            <Q6 />
+            <Q7 />
+            <Q8 />
+            <Q9 />
+            <Q10 />
+
         </div>
 
             <div className="flex items-center justify-between w-[640px]">
