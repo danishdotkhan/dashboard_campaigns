@@ -89,13 +89,13 @@ const Faq = () => {
       
       <div class="flex justify-end gap-[40px]">
 
-      <button className="w-[200px] h-[48px] bg-[#E3E5E7] cursor-pointer rounded-lg transition duration-300 ease-in-out cursor-pointer hover:bg-gray-200 hover:bg-zinc-300">
-      <div class="text-center text-sky-600 text-base font-medium font-['Work Sans'] leading-snug">Discard</div>
+      <button className="w-[200px] h-[48px] bg-[#E3E5E7] group cursor-pointer rounded-lg transition duration-300 ease-in-out cursor-pointer hover:bg-sky-600">
+      <div class="text-center text-sky-600 hover:text-white text-base transition duration-300 ease-in-out font-medium font-['Work Sans'] leading-snug">Discard</div>
             </button>
 
-            <button className="w-[200px] h-[48px]  group cursor-pointer rounded-lg transition duration-300 ease-in-out cursor-pointer hover:bg-sky-700  bg-[#0b84df]">
+            <button className="w-[200px] h-[48px]  group cursor-pointer rounded-lg transition duration-300 ease-in-out cursor-pointer hover:bg-[#E3E5E7]  bg-[#0b84df]">
                
-                    <div class="text-center text-white text-base font-medium font-['Work Sans']">Submit</div>
+                    <div class="text-center text-white  hover:text-sky-600 text-base font-medium font-['Work Sans']">Submit</div>
                
             </button>
        </div>

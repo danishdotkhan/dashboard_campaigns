@@ -7,6 +7,7 @@ import Subscription from "./pages/subscription";
 import Question from "./pages/question";
 import Leads from "./pages/leads";
 import Help from "./pages/help";
+import Icp from "./pages/icp";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
     <Question />
     <Leads />
     <Help />
+    <Icp />
     </>
   );
 }
