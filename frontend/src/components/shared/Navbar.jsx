@@ -1,8 +1,8 @@
-const Navbar = () => {
+const Navbar = ({title}) => {
   return (
     <>
       <div className="w-full h-[80px] flex justify-between items-center text-black bg-white border border-x-0">
-        <div className="text-[25px] ml-10">Campaigns</div>
+        <div className="text-slate-800 text-2xl font-semibold font-gothic tracking-wider leading-10  ml-10">{title}</div>
         <div className="flex gap-6 items-center">
           <div>
             <img src="../src/assets/Settings.svg" alt="" />

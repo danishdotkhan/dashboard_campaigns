@@ -8,12 +8,16 @@ import Question from "./pages/question";
 import Leads from "./pages/leads";
 import Help from "./pages/help";
 import Icp from "./pages/icp";
+import NewCampaign from "./pages/newcampaign"
+import CampaignDetails from "./pages/campaigndetails"
 
 export default function App() {
   return (
     <>
 
     <CampaignHome />
+    <NewCampaign />
+    <CampaignDetails/>
     <AppDashboard/>
     <SignUp />
     <SignIn />

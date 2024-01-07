@@ -1,4 +1,4 @@
-import Layout from "../components/Layout.jsx";
+import Layout from "../components/campaigns/layouthome.jsx";
 import SearchInput from "../components/campaigns/searchInput.jsx";
 import CreateCampaignButton from "../components/campaigns/createCampaignButton.jsx";
 import CampaignsTableHome from "../components/campaigns/campaignsTableHome.jsx";

@@ -1,4 +1,4 @@
-import Navbar from "./navbar.jsx";
+import Navbar from "../shared/Navbar.jsx"
 import Sidebar from "../shared/Sidebar.jsx";
 
 const Layout = ({ children }) => {
@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     <div className="flex  overflow-hidden">
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
-        <Navbar />
+        <Navbar title="Help"/>
         <main>{children}</main>
       </div>
     </div>

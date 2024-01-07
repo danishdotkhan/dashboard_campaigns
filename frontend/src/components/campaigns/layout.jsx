@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     <div className="flex  overflow-hidden">
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
-        <Navbar title="ICP"/>
+        <Navbar title=" New Campaign" />
         <main>{children}</main>
       </div>
     </div>
