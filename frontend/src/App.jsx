@@ -10,6 +10,7 @@ import Help from "./pages/help";
 import Icp from "./pages/icp";
 import NewCampaign from "./pages/newcampaign"
 import CampaignDetails from "./pages/campaigndetails"
+import Profiler from "./pages/profiler"
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
     <SignUp />
     <SignIn />
     <Welcome />
+    <Profiler />
     <Subscription />
     <Question />
     <Leads />
